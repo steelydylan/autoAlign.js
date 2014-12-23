@@ -40,6 +40,7 @@
                     height = $(this).outerHeight();
                 }
             });
+            height++;//min-heightは小数点を許すため
             self.each(function(){
                 $(this).css("minHeight",height+"px");
             });
@@ -65,6 +66,7 @@
                         h = heightArry[t+j];
                     }
                 }
+                h++;//min-heightは小数点を許すため
                 $(this).css("minHeight",h+"px");
                 i++;
             });
