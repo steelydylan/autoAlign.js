@@ -13,7 +13,7 @@ when you resize the window, this plugin automatically works.
 $(".js-autoAlign").autoAlign({
 	columns:2,
 	columnsTablet:[768,3],
-	columnsDesktopSmall:[980,4],
+	columnsDesktopSmall:[992,4],
 	columnsDesktop:[1200,6]
 });
 ```
