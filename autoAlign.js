@@ -73,7 +73,7 @@
             var opt = $.extend({
                 columns:0,
                 columnsTablet:[768,-1],
-                columnsDesktopSmall:[980,-1],
+                columnsDesktopSmall:[992,-1],
                 columnsDesktop:[1200,-1]
             },opt);
             opt.columnsTablet[1] = opt.columnsTablet[1] == -1 ? opt.columns : opt.columnsTablet[1];
