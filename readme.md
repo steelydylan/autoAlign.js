@@ -1,6 +1,5 @@
 #autoAlign.js
 
----
 
 ##About
 
@@ -18,3 +17,7 @@ $(".js-autoAlign").autoAlign({
 	columnsDesktop:[1200,6]
 });
 ```
+
+##DEMO
+
+[http://steelydylan.github.io/autoAlign.js/](http://steelydylan.github.io/autoAlign.js/)
