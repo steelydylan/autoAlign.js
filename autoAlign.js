@@ -72,6 +72,9 @@
             });
         },
         autoAlign:function(opt){
+            if($(this).length == 0){
+                return true;
+            }
             var opt = $.extend({
                 columns:0,
                 columnsTablet:[768,-1],
