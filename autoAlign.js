@@ -12,7 +12,7 @@
             var element = elements[i];
             var $ele = element.ele;
             var opt = element.opt;
-            var width = window.innerWidth;
+            var width = (window.innerWidth||document.documentElement.clientWidth||0);
             $ele.css("minHeight","0px");
             if(width >= opt.columnsDesktop[0]){
                 $ele.alignHeight(opt.columnsDesktop[1]);
